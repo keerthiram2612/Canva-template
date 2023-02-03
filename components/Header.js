@@ -11,7 +11,7 @@ export default function Header(){
             <div className="flex space-x-8 items-center  hover:underline">
                 <img className ="w-20 ml-10 object-cover cursor-pointer"src="https://static-cse.canva.com/_next/static/assets/logo_w2000xh641_3b021976d60d0277e95febf805ad9fe8c7d6d54f86969ec03b83299084b7cb93.png" 
                 alt="canva-logo"/>
-                <p className="link  text-gray-600 btn-Design"><IoIosArrowDown className/>
+                <p className="link  text-gray-600 btn-Design "><IoIosArrowDown className/>
                     Design spotlight</p>
 
                 <p className="link  text-gray-600 btn-Bussiness "><IoIosArrowDown className/>

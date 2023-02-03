@@ -50,25 +50,27 @@
    
  }
  .btn-Design{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:flex;
  }
 .btn-Bussiness{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .btn-Education{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn-plans{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn-Learn{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .search{
     padding: 35px 45px;
@@ -88,22 +90,30 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .btn-Signupfree         
- {
-   background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
+     {
+    background-image: linear-gradient(to right, #EC6F66 0%, #F3A183  51%, #EC6F66  100%);
+    margin: 10px;
+    padding: 0px 2px;
+    text-align: center;
+    text-transform: lowercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: 650px;
+    margin-right: 650px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
- .btn-Signupfree:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
+  
+  }
+  
+  
+  .btn-Signupfree :hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   

@@ -20,7 +20,10 @@ export default function Home() {
            </div>
            <div className="para">
            <p>Canva makes it easy to create professional designs and to share or print them.</p>
-           
+           <div className="sign">
+           <p className="btn-Signupfree">Sign up free</p>
+           </div>
+           <img className ="h-30 mr-5 ml-5"src="https://www.rebilly.com/44967830fa84e1e897bb282fd02fbe55/designfromablanktemplate.gif"></img>
            
            </div>
   
