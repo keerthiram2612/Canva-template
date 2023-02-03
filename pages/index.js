@@ -15,7 +15,15 @@ export default function Home() {
 
           <Header/>
           {/*Body*/}
-
+          <div className="body">
+           <p className="">What will you design today?</p>
+           </div>
+           <div className="para">
+           <p>Canva makes it easy to create professional designs and to share or print them.</p>
+           
+           
+           </div>
+  
           {/*Footer*/}
         </div>
   
