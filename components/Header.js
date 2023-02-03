@@ -15,9 +15,10 @@ export default function Header(){
               
             </div>
             <div className="flex space-x-4 items-center hover:underline">
-                <p className="link  text-gray-600">Log in</p>
-                <p className="link  text-gray-600">Sign up</p>
-                 <User/>
+                <p className="link  text-gray-600 btn-Login cent">Log in</p>
+                <p className="link  text-gray-600 btn-Signup cent ">Sign up</p>
+                
+                 
                 
             </div>
         </header>

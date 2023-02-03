@@ -7,3 +7,45 @@
         @apply hover:underline cursor-pointer
     }
 }
+.btn-Signup{
+        background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+        margin: 10px;
+        padding: 15px 25px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color:white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+      }
+
+      .btn-Signup:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+.btn-Login {
+   background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+   margin: 10px;
+   padding: 15px 25px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .btn-Login:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: white;
+   text-decoration: none;
+   
+ }
