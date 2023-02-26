@@ -1,19 +1,31 @@
 import Header from '@/components/Header'
 import React from 'react'
-import {getProviders} from "next-auth/react";
+import {getProviders,Login} from "next-auth/react";
 
-export default function signIn({providers}){
+export default function Login({providers}){
 return(
     <>
      <Header/>
      <div className="">
         {Object.values(providers).map(provider=>(
             <div key={provider.name} className="">
-                <img src="https://static-cse.canva.com/_next/static/assets/logo_w2000xh641_3b021976d60d0277e95febf805ad9fe8c7d6d54f86969ec03b83299084b7cb93.png" 
-                alt="canva-logo"/>
-                <p>This website is created for styling purposes</p>
-                <button>Sign in with {provider.name}</button>
-                </div>
+               
+               <div className="body">
+           <p className="">What will you design today?</p>
+           </div>
+           <div>
+           <p className="btn-Signupfree">Sign up free {provider.name}</p>
+           
+           </div>
+
+           <img className ="h-30 mr-5 ml-5 mt-10  p-5 "src="https://www.rebilly.com/44967830fa84e1e897bb282fd02fbe55/designfromablanktemplate.gif"></img>
+           <div className="mt-10 canva mr-90">
+           <button className="btn-Signupfree"  onClick={()=>Login(provider.id,{callbackUrl:"/"})}> Sign up free {provider.name}</button>
+          
+
+           </div>
+
+               </div> 
         ))}
         
         

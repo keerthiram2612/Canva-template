@@ -1,7 +1,11 @@
+import{useSession,Login,Signup}from "next-auth/react"
 
+export default function User() {
+    
+        return (
+          <>
+           
 
-export default function User(){
-    return(
-     <div>User</div>
-    )
-}
+          </>
+        )
+     }

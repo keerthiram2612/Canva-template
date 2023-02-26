@@ -15,13 +15,13 @@ export default function Home() {
 
           <Header/>
           {/*Body*/}
-          <div className="body">
+          <div className="body sticky body-0 bg-white z-30">
            <p className="">What will you design today?</p>
            </div>
            <div className="para">
            <p>Canva makes it easy to create professional designs and to share or print them.</p>
            <div className="sign mt-7">
-           <p className="btn-Signupfree mt-7">Sign up free</p>
+           <button className="btn-Signupfree mt-7">Sign up free</button>
            </div>
            
            <img className ="h-30 mr-5 ml-5 mt-10  p-5 "src="https://www.rebilly.com/44967830fa84e1e897bb282fd02fbe55/designfromablanktemplate.gif"></img>

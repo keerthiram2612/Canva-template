@@ -5,7 +5,7 @@ import {BsFillQuestionCircleFill} from "react-icons/Bs";
 import{IoIosArrowDown}from  "react-icons/Io";
 export default function Header(){
     return(
-      
+          <div className="sticky top-0 bg-white z-30">
         <header className="flex justify-between p-5 text-sm lg:justify-start border-b pb-0 border-shadow-12">
             
             <div className="flex space-x-8 items-center  hover:underline">
@@ -35,14 +35,16 @@ export default function Header(){
             </div>
 
             <div className="flex space-x-4 items-center ">
-                <p className="link  text-gray-600 btn-Login cent">Log in</p>
-                <p className="link  text-gray-600 btn-Signup cent ">Sign up</p>
+                <button className="link  text-gray-600 btn-Login cent">Log in</button>
+                
+                <button className="link  text-gray-600 btn-Signup cent ">Sign up</button>
                 </div>
                 
                 
                  
                 
-            
+                
         </header>
+        </div> 
     )
 }

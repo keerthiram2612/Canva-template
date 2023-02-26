@@ -93,7 +93,7 @@
      {
     background-image: linear-gradient(to right, #EC6F66 0%, #F3A183  51%, #EC6F66  100%);
     margin: 10px;
-    padding: 0px 2px;
+    padding: 5px 3px;
     text-align: center;
     text-transform: lowercase;
     transition: 0.5s;
@@ -104,7 +104,7 @@
     display: block;
     margin-left: 650px;
     margin-right: 650px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     padding-top: 7;
   
   }
@@ -117,5 +117,8 @@
     padding-top: 7;
   }
   
-  
-   
+  @media screen and (max-width: 900px){
+    .header{
+      background-color: #fc00ff;
+    }
+  }
