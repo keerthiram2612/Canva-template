@@ -92,7 +92,7 @@
 .btn-Signupfree         
      {
     background-image: linear-gradient(to right, #EC6F66 0%, #F3A183  51%, #EC6F66  100%);
-    margin: 10px;
+    margin: auto;
     padding: 5px 3px;
     text-align: center;
     text-transform: lowercase;
@@ -105,8 +105,9 @@
     margin-left: 650px;
     margin-right: 650px;
     font-family:Arial, Helvetica, sans-serif;
-    padding-top: 7;
-  
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
   
   
@@ -114,11 +115,13 @@
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-    padding-top: 7;
+    
   }
+   
   
-  @media screen and (max-width: 900px){
-    .header{
-      background-color: #fc00ff;
+  
+  @media screen and (max-width:800px){
+    .headerfile,.logo{
+      width: 100% ;
     }
   }

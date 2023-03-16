@@ -15,7 +15,7 @@ export default function Home() {
 
           <Header/>
           {/*Body*/}
-          <div className="body sticky body-0 bg-white z-30">
+          <div className="body">
            <p className="">What will you design today?</p>
            </div>
            <div className="para">

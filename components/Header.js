@@ -5,13 +5,14 @@ import {BsFillQuestionCircleFill} from "react-icons/Bs";
 import{IoIosArrowDown}from  "react-icons/Io";
 export default function Header(){
     return(
-          <div className="sticky top-0 bg-white z-30">
+     
+          <div className=" headerfile box-sizing: border-box header sticky top-0  bg-white z-30">
         <header className="flex justify-between p-5 text-sm lg:justify-start border-b pb-0 border-shadow-12">
             
-            <div className="flex space-x-8 items-center  hover:underline">
+            <div className="logo flex space-x-8 items-center  hover:underline">
                 <img className ="w-20 ml-10 object-cover cursor-pointer"src="https://static-cse.canva.com/_next/static/assets/logo_w2000xh641_3b021976d60d0277e95febf805ad9fe8c7d6d54f86969ec03b83299084b7cb93.png" 
                 alt="canva-logo"/>
-                <p className="link  text-gray-600 btn-Design "><IoIosArrowDown className/>
+                <p className=" Design spotlight link  text-gray-600 btn-Design "><IoIosArrowDown className/>
                     Design spotlight</p>
 
                 <p className="link  text-gray-600 btn-Bussiness "><IoIosArrowDown className/>
@@ -20,12 +21,12 @@ export default function Header(){
                     Education</p>
                 <p className="link  text-gray-600 btn-plans"><IoIosArrowDown className/>
                     plans and pricing</p>
-                <p className="link  text-gray-600 btn-Learn"><IoIosArrowDown className/>
+                <p className="link  text-gray-600 btn-Learn flex space-x-3"><IoIosArrowDown className/>
                     Learn</p>
               
             </div>
             <div className="search flex space-x-4 items-center pt-2 pb-12 ">
-            <form className="flex border border-gray-200 square-full shadow-lg py-2 ml-15 mr-5 flex-grow max-w-3xl items-center ">
+            <form className=" flex border border-gray-200 square-full shadow-lg py-3 ml-15 mr-7 flex-grow max-w-3xl items-center">
             <SearchIcon className="h-8 text-gray-500 mr-3 px-2 "/>
             <input className=" w-full focus:outline-none"
             type="text" name=""placeholder="Try logo,poster anything!"/>
