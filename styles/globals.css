@@ -112,9 +112,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-.search{
-    padding: px px;
-    font-size: 20px;
+.circle{
+    justify-content: space-between;
+    padding: 0 20px;
+    
 }
 
   }
